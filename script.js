@@ -72,6 +72,8 @@ const getRandomQoute = () => {
     $("#new-quote").css("background-color",`${colors[randomInt]}`);
     $("body").css("background-color",`${colors[randomInt]}`);
     $("#tweet-quote").css("background-color",`${colors[randomInt]}`);
+
+    tweetQoute();
 }
 const tweetQoute = () => {
     const quote = $("#text").text();
